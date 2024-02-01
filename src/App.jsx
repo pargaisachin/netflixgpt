@@ -1,14 +1,13 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import Body from './Components/Body'
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
-    <div className='text-cyan-800 font-bold font-extrabold`'> 
-      I am Here to build netflix GPT
+    <div className='bg-gray-900 h-full w-full overflow-x-hidden relative'> 
+  
+      <Body/>
     </div>
   )
 }
